@@ -1,11 +1,11 @@
 name: signin
 
 on:
-    push:
-        branches:
-            - master
-    schedule:
-        - cron: '0 17 * * *'
+  push:
+    branches:
+        - master
+  schedule:
+    - cron: '0 17 * * *'
         
 jobs:
   build:
