@@ -1,11 +1,11 @@
 name: signin
 
-on:
-  push:
-    branches:
-        - master
+on: 
+  watch:
+    types: [started]
   schedule:
-    - cron: '0 17 * * *'
+    - cron: "0 22 * * *"
+    
         
 jobs:
   build:
